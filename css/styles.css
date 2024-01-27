@@ -11,7 +11,7 @@ body{
 
 
 
-.card-burguer{
+.card-dish{
     object-fit: cover;
     display: block;
     max-width: 100%;
@@ -25,6 +25,13 @@ body{
 
 .card-text{
     color: #8a1538;
+}
+
+
+.container-title{
+    color: white;
+    border: #ffffff;
+
 }
 
 .hundred-color {
