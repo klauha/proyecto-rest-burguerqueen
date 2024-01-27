@@ -8,6 +8,11 @@ body{
 .navbar {
     background-color: black;
 }
+ .nav-carta {
+    display:flex;
+    justify-content: space-around;
+
+ }
 
 
 
@@ -19,12 +24,12 @@ body{
     
 }
 .card-title {
-    color: #8a1538;
+    color: black;
     font-weight: bold;
 }
 
 .card-text{
-    color: #8a1538;
+    color: black;
 }
 
 
@@ -32,6 +37,14 @@ body{
     color: white;
     border: #ffffff;
 
+}
+
+.container-drinks{
+    color: #ffffff;
+}
+
+h5{
+    font-size: 20px;
 }
 
 .hundred-color {
