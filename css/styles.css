@@ -7,3 +7,10 @@ body{
 .navbar {
     background-color: black;
 }
+
+.card-img-top {
+    width: 100%;
+    max-width: var(--max);
+    height: calc(var(--max));
+    object-fit: cover;
+    } 
