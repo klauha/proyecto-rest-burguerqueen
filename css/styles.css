@@ -2,15 +2,33 @@ body{
     margin:0;
     padding:0;
 
-    background-color: black;
+    background-color: #8a1538;
 }
+
 .navbar {
     background-color: black;
 }
 
-.card-img-top {
-    width: 100%;
-    max-width: var(--max);
-    height: calc(var(--max));
+
+
+.card-burguer{
     object-fit: cover;
-    } 
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+.card-title {
+    color: #8a1538;
+    font-weight: bold;
+}
+
+.card-text{
+    color: #8a1538;
+}
+
+.hundred-color {
+    background-color: 8a1538; /* Código de color azul personalizado */
+    color: #ffffff; /* Color del texto */
+}
+ 
