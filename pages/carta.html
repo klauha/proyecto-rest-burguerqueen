@@ -14,51 +14,50 @@
     <nav>
         <div id="navbar-a">
             <div class="container 100-vh p-0">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                <nav class="navbar navbar-expand-lg  navbar-principal">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+                        <button class="navbar-toggler bg-body-tertiary" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+                        <a class="navbar-brand" href="../index.html"> <img class="logo-nav"
+                                src="../img/otras/the_hundred_logo_new.png" alt=""></a>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                <a class="nav-link" href="#">Carta</a>
-                                <a class="nav-link" href="#">Reservas</a>
-                                <a class="nav-link" href="#">Contacto</a>
-                                <a class="nav-link" href="#"> </a>
+                            <div class="navbar-nav d-flex justify-content-center">
+                                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                                <a class="nav-link text-nav border-3 border-white" href="./pages/carta.html">CARTA</a>
+                                <a class="nav-link text-nav border-3 border-white"
+                                    href="./pages/promociones.html">PROMOCIONES</a>
+                                <a class="nav-link text-nav border-3 border-white"
+                                    href="./pages/contacto.html">CONTACTO</a>
+                                <a class="nav-link text-nav border-3 border-white" href="#"> </a>
                             </div>
                         </div>
                     </div>
                 </nav>
             </div>
-            <div id="navbar-b">
-                <div class="container p-0">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid">
-                            <!-- <a class="navbar-brand" href="#">Navbar</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button> -->
-                            <div class="collapse navbar-collapse nav-carta" id="navbarNavAltMarkup">
-                                <div class="navbar-nav nav-carta" >
-                                    <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-                                    <a class="nav-link" href="#">🍔Burguers</a>
-                                    <a class="nav-link" href="#side">🍟Sides</a>
-                                    <a class="nav-link" href="#kids">🧸kids</a>
-                                    <a class="nav-link" href="#sweets">🍰Sweets</a>
-                                    <a class="nav-link" href="#drinks">🥤Drinks</a>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
+        </div>
     </nav>
+    <!-- <div id="navbar-b">
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
+    <div class="container">
+        <div class="navbar-nav nav-carta d-flex flex-row flex-wrap justify-content-around border">
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+            <a class="nav-link" href="#">🍔Burguers</a>
+            <a class="nav-link" href="#side">🍟Sides</a>
+            <a class="nav-link" href="#kids">🧸kids</a>
+            <a class="nav-link" href="#sweets">🍰Sweets</a>
+            <a class="nav-link" href="#drinks">🥤Drinks</a>
+        </div>
+    </div>
+    <!-- </div>
+            </div>
+
+        </div> -->
+
     <main>
         <div class="container container-burguer">
             <div class="row  p-5">
@@ -285,41 +284,46 @@
                 <h1 id="drinks">DRINKS</h1>
             </div>
         </div>
-        <div class="container container-drinks">
-            <div class="row  p-5">
-                <div class="col-12 col-md-6 col-lg-4 d-flex >
-                    <div class=" drinks-menu">
-                    <div class="drink-left">
-                        <h5>COCA-COLA FREESTYLE</h5>
-                        <P>A rellenar ilimitadamente con tus sabores y combinaciones favortias, Coca-Cola, Fanta y más
-                        </P>
-                        <h5>AGUA MINERAL EVIAN </h5>
-                        <P>Botella de 500 ml</P>
-                        <h5>NESTE LIMÓN</h5>
-                        <P>Botella de 500 ml</P>
-                        <h5>AQUARIUS</h5>
-                        <P>Botella de 500 ml</P>
-                    </div>
-                    <div class="drink-right">
-                        <h5>CORONA</h5>
-                        <P>Botella 0,35cl</P>
-                        <h5>BUDWEISER</h5>
-                        <P>Botella 0,35cl</P>
-                        <h5>ALL DAY IPA</h5>
-                        <P>Botella 0,35cl</P>
-                        <h5>ESTRELLA GALICIA 0,0</h5>
-                        <P>Botella de 0,35cl</P>
-                    </div>
 
-                </div>
+        <div class="row container-drinks p-5 m-5">
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <!-- <div class="row  p-5"> -->
+                    <h5>COCA-COLA FREESTYLE</h5>
+                    <p>A rellenar ilimitadamente con tus sabores y combinaciones favortias, Coca-Cola, Fanta y
+                        más
+                    </p>
+                    <h5>AGUA MINERAL EVIAN </h5>
+                    <p>Botella de 500 ml</p>
+                    <h5>NESTE LIMÓN</h5>
+                    <p>Botella de 500 ml</p>
+                    <h5>AQUARIUS</h5>
+                    <p>Botella de 500 ml</p>
+                <!-- </div> -->
             </div>
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <!-- <div class="row  p-5"> -->
+
+                    <h5>CORONA</h5>
+                    <p>Botella 0,35cl</p>
+                    <h5>BUDWEISER</h5>
+                    <p>Botella 0,35cl</p>
+                    <h5>ALL DAY IPA</h5>
+                    <p>Botella 0,35cl</p>
+                    <h5>ESTRELLA GALICIA 0,0</h5>
+                    <p>Botella de 0,35cl</p>
+
+                <!-- </div> -->
+            </div>
+        </div>
         </div>
 
     </main>
     <footer>
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
