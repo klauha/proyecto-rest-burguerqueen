@@ -1,60 +1,88 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
 
-    background-color:black;
-}
-
-.navbar {
     background-color: black;
 }
- .nav-carta {
-    display:flex;
+
+
+.navbar-principal {
+
+    background-color: black;
+}
+
+.text-nav {
+    color: #ffffff;
+    font-size: 20px;
+    border: #ffffff;
+
+
+}
+
+.logo-nav {
+    object-fit: cover;
+    display: block;
+    height: auto;
+    width: 30em;
+    max-width: 100%;
+
+
+}
+
+.nav-carta {
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
     justify-content: space-around;
-
- }
-
+    font-weight: bold;
 
 
-.card-dish{
+}
+
+
+
+.card-dish {
     object-fit: cover;
     display: block;
     max-width: 100%;
     height: auto;
-    
+
 }
+
 .card-title {
     color: black;
     font-weight: bold;
 }
 
-.card-text{
+.card-text {
     color: black;
 }
 
 
-.container-title{
+.container-title {
     color: white;
     border: #ffffff;
 
 }
 
-.container-drinks{
+.container-drinks {
     color: #ffffff;
 }
 
-h5{
+h5 {
     font-size: 20px;
 }
 
 .hundred-color {
-    background-color: 8a1538; /* Código de color azul personalizado */
-    color: #ffffff; /* Color del texto */
+    background-color: 8a1538;
+    /* Código de color azul personalizado */
+    color: #ffffff;
+    /* Color del texto */
 }
- 
+
 
 
 /* CSS HOME */
-.card-text-home{
+.card-text-home {
     color: #ffffff;
 }
