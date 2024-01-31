@@ -1,11 +1,12 @@
 # THE HUNDRED - Landing Page 🍔
 
-¡Bienvenidos a la landing page de THE HUNDRED Este proyecto ha sido realizado como el Proyecto 1 del Bootcamp de Full Stack Developer en Geekshubs Academy y está basado en HUNDRED BURGERS.
+¡Bienvenidos a la landing page de THE HUNDRED Este proyecto ha sido realizado como el Proyecto 1 del Bootcamp de Full Stack Developer en Geekshubs Academy y está basado en HUNDRED BURGERS https://www.hundredburgers.com/.
 
 
 
 ## 🚀 Vista previa
 
+img(./)
 Si deseas ver la landing page en acción, simplemente [accede desde aquí].
 
 ## 🛠️ Tecnologías utilizadas
@@ -18,7 +19,7 @@ Si deseas ver la landing page en acción, simplemente [accede desde aquí].
 ## 🏙️ Imágenes y recursos
 
 
-- **HUNDRED** -  Se ha utilizado `source.unsplash.com/featured` para obtener imágenes 
+- **HUNDRED** -  Se ha utilizado https://www.hundredburgers.com/para obtener imágenes 
 
 ## ✒️ Autor
 
@@ -29,6 +30,3 @@ Si deseas ver la landing page en acción, simplemente [accede desde aquí].
 
 - A **Geekshubs Academy** por la oportunidad de aprender y crecer como desarrolladora.
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
